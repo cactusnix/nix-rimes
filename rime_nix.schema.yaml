@@ -1,0 +1,11 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: rime_nix
+  name: 中
+  version: "0.1"
+  author:
+    - cactusnix
+  description: |
+    小鹤双拼输入法方案 + nix 自定义
