@@ -7,3 +7,9 @@
 ## 输入法方案
 
 - 小鹤双拼
+
+## 感谢
+
+- [Rime](https://rime.im/)
+- [雾凇拼音](https://github.com/iDvel/rime-ice/tree/main)
+- [Easy English](https://github.com/BlindingDark/rime-easy-en)
