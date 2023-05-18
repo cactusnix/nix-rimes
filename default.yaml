@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 # 要比共享目录的同名文件的 config_version 大才可以生效
-config_version: "2023-05-15"
+config_version: "2023-05-18"
 
 # 方案列表
 schema_list:
