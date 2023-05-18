@@ -27,7 +27,7 @@ engine:
 
 # 复制的翻译器
 translator:
-  dictionary: luna_pinyin
+  dictionary: rime_nix
   # 开启会被解析成拼音，但不利于英文直接输入的情况
   # preedit_format:
   #   - xform/([bpmfdtnljqx])n/$1iao/
