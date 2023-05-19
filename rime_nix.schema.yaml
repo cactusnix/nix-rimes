@@ -21,6 +21,7 @@ engine:
   processors:
     - ascii_composer # 中英文互换
     - speller # 拼写设定
+    - selector # 选字
     - express_editor # 空格、回车上屏
   segmentors:
     - abc_segmentor # 分割输入的字符
