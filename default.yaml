@@ -7,10 +7,15 @@ config_version: "2023-05-19"
 # 方案列表
 schema_list:
   - schema: rime_nix
+  - schema: rime_nix_en
 
 # 候选字个数
 menu:
   - page_size: 5
+
+switcher:
+  hotkeys:
+    - Control+grave # Control + ~
 
 # 中英文切换
 #

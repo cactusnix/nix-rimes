@@ -1,0 +1,30 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: rime_nix_en
+  name: 仙人掌英文
+  version: "0.1"
+  author:
+    - cactusnix
+  description: |
+    英文输入
+
+engine:
+  processors:
+    - speller # 拼写设定
+    - express_editor # 空格、回车上屏
+  segmentors:
+    - abc_segmentor # 分割输入的字符
+  translators:
+    - script_translator # 翻译器
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  delimiter: " '"
+
+translator:
+  dictionary: rime_nix_en
+  spelling_hints: 9
+  comment_format:
+    - xform/^.+$//

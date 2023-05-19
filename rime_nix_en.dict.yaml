@@ -1,0 +1,9 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: rime_nix_en
+version: "2023-05-19"
+import_tables:
+  - dicts/en/base # 基础词语表
+...
