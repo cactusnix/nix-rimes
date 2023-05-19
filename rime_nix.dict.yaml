@@ -3,7 +3,7 @@
 
 ---
 name: rime_nix
-version: "2023-05-18"
+version: "2023-05-19"
 import_tables:
   - dicts/cn/8105 # 基础字表
   - dicts/cn/base # 基础词语表
