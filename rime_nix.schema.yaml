@@ -9,6 +9,8 @@ schema:
     - cactusnix
   description: |
     小鹤双拼输入法方案 + nix 自定义
+  dependencies:
+    - rime_nix_en
 
 switches:
   - name: ascii_mode
@@ -24,6 +26,7 @@ engine:
     - abc_segmentor # 分割输入的字符
   translators:
     - script_translator # 翻译器
+    - table_translator@rime_nix_en # 挂载
 
 # 复制的翻译器
 translator:
@@ -62,6 +65,12 @@ translator:
   #   - "xform/(^|[ '])u/$1sh/"
   #   - xform/([jqxy])v/$1u/
   #   - xform/([nl])v/$1ü/
+
+rime_nix_en:
+  dictionary: rime_nix_en
+  spelling_hints: 9
+  comment_format:
+    - xform/^.+$//
 
 # 复制的键位映射
 speller:
