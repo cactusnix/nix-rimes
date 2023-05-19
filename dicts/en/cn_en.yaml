@@ -7,7 +7,7 @@
 # 由 others/cn_en.txt 生成
 #
 ---
-name: cn_en_double_pinyin_flypy
+name: cn_en
 version: "1"
 sort: by_weight
 ...
