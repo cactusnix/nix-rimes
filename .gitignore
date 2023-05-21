@@ -1,1 +1,6 @@
 .DS_Store
+/build/
+installation.yaml
+/rime_nix.userdb/
+/rime_nix_en.userdb/
+user.yaml
