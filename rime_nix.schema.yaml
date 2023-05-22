@@ -75,7 +75,7 @@ rime_nix_en:
 
 # 复制的键位映射
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   delimiter: " '"
   algebra:
     - erase/^xx$/
