@@ -6,5 +6,6 @@ name: rime_nix_en
 version: "2023-05-19"
 import_tables:
   - dicts/en/base # 基础词语表
-  - dicts/en/cn_en # 基础词语表
+  - dicts/en/cn_en # 双拼中英混输
+  - dicts/en/ext # 扩展
 ...

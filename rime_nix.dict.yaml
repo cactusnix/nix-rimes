@@ -7,4 +7,7 @@ version: "2023-05-19"
 import_tables:
   - dicts/cn/8105 # 基础字表
   - dicts/cn/base # 基础词语表
+  - dicts/cn/ext # 扩展
+  - dicts/cn/others # 其他
+  - dicts/cn/tencent # tencent
 ...
