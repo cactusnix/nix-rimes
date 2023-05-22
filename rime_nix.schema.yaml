@@ -14,7 +14,7 @@ schema:
 
 switches:
   - name: ascii_mode
-    states: [中, 英]
+    states: [AC, NONE]
     reset: 0 # 默认状态
 
 engine:
@@ -23,6 +23,7 @@ engine:
     - speller # 拼写设定
     - selector # 选字
     - express_editor # 空格、回车上屏
+    - key_binder # 快捷键
   segmentors:
     - abc_segmentor # 分割输入的字符
   translators:
@@ -109,3 +110,6 @@ speller:
     - xform/in$/B/
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
     - abbrev/^(.).+$/$1/ # 首字母简拼
+
+key_binder:
+  import_preset: default

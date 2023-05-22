@@ -10,10 +10,17 @@ schema:
   description: |
     英文输入
 
+switches:
+  - name: ascii_mode
+    states: [AC, NONE]
+    reset: 0 # 默认状态
+
 engine:
   processors:
+    - ascii_composer # 中英文互换
     - speller # 拼写设定
     - express_editor # 空格、回车上屏
+    - key_binder # 快捷键
   segmentors:
     - abc_segmentor # 分割输入的字符
   translators:
@@ -28,3 +35,6 @@ translator:
   spelling_hints: 9
   comment_format:
     - xform/^.+$//
+
+key_binder:
+  import_preset: default

@@ -2,15 +2,21 @@
 # encoding: utf-8
 
 # 要比共享目录的同名文件的 config_version 大才可以生效
-config_version: "2023-05-19"
+config_version: "2023-05-22"
 
 # 方案列表
 schema_list:
   - schema: rime_nix
+  - schema: rime_nix_en
 
 # 候选字个数
 menu:
   - page_size: 5
+
+switcher:
+  caption: 「方案选单」
+  hotkeys:
+    - Control+grave
 
 # 中英文切换
 #
@@ -33,3 +39,11 @@ ascii_composer:
     Shift_R: noop
     Control_L: noop
     Control_R: noop
+
+key_binder:
+  bindings:
+    # 翻页 - =
+    - { when: paging, accept: "Control+k", send: Page_Up }
+    - { when: has_menu, accept: "Control+j", send: Page_Down }
+    - { when: has_menu, accept: "Control+h", send: Left }
+    - { when: has_menu, accept: "Control+l", send: Right }
