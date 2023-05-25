@@ -26,7 +26,7 @@ style:
   label_font_point: 12
   font_face: PingFangSC
   font_point: 16
-  candidate_format: "%c %@ "
+  candidate_format: "%c %@"
   inline_preedit: true
 
 # 皮肤主题
