@@ -22,6 +22,7 @@ switches:
 
 engine:
   processors:
+    - lua_processor@select_character # 以词定字
     - ascii_composer # 中英文互换
     - speller # 拼写设定
     - selector # 选字
@@ -32,8 +33,11 @@ engine:
   translators:
     - script_translator # 翻译器
     - table_translator@rime_nix_en # 挂载
+    - lua_translator@date_translator
+    - lua_translator@number_translator
   filters:
     - simplifier@emoji
+    - lua_filter@is_in_user_dict
 
 # 复制的翻译器
 translator:
@@ -82,6 +86,16 @@ rime_nix_en:
 emoji:
   opencc_config: emoji.json
   option_name: emoji
+
+is_in_user_dict: true
+
+# Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
+date_translator:
+  date: D # 日期： 2022-11-29
+  time: T # 时间： 18:13
+  week: W # 星期： 星期二
+  datetime: DT # ISO 8601： 2022-11-29T18:13:11+08:00
+  timestamp: TS # 时间戳： 1669716794
 
 # 复制的键位映射
 speller:
