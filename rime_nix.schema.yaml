@@ -15,7 +15,10 @@ schema:
 switches:
   - name: ascii_mode
     states: [ac, none]
-    reset: 0 # 默认状态
+    reset: 0
+  - name: emoji
+    states: [🥶, 🥸]
+    reset: 1
 
 engine:
   processors:
@@ -29,6 +32,8 @@ engine:
   translators:
     - script_translator # 翻译器
     - table_translator@rime_nix_en # 挂载
+  filters:
+    - simplifier@emoji
 
 # 复制的翻译器
 translator:
@@ -73,6 +78,10 @@ rime_nix_en:
   spelling_hints: 9
   comment_format:
     - xform/^.+$//
+
+emoji:
+  opencc_config: emoji.json
+  option_name: emoji
 
 # 复制的键位映射
 speller:

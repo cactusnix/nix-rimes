@@ -13,7 +13,7 @@ schema:
 switches:
   - name: ascii_mode
     states: [ac, none]
-    reset: 0 # 默认状态
+    reset: 0
 
 engine:
   processors:
