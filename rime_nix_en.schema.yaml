@@ -29,6 +29,15 @@ engine:
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   delimiter: " '"
+  algebra:
+    # 把大小写混写的单词转写为全小写
+    - derive/^(.+)$/\L$1/
+    # 把小写的单词转写为全大写
+    - derive/^([a-z].+)$/\U$1/
+    # 把单词转写为首字母大写
+    - derive/^([a-zA-Z])/\U$1/
+    # 把小写的单词转写为前2字母大写
+    - derive/^([a-z][a-z])/\U$1/
 
 translator:
   dictionary: rime_nix_en
