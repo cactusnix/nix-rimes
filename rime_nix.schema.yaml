@@ -42,6 +42,7 @@ engine:
 # 复制的翻译器
 translator:
   dictionary: rime_nix
+  initial_quality: 1.2 # 初始权重
   # 开启会被解析成拼音，但不利于英文直接输入的情况
   # preedit_format:
   #   - xform/([bpmfdtnljqx])n/$1iao/
@@ -79,6 +80,7 @@ translator:
 
 rime_nix_en:
   dictionary: rime_nix_en
+  initial_quality: 1.1 # 初始权重
   spelling_hints: 9
   comment_format:
     - xform/^.+$//
