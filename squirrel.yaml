@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 # 要比共享目录的同名文件的 config_version 大才可以生效
-config_version: "2023-06-15"
+config_version: "2023-06-29"
 
 # options: last | default | _custom_
 # last: the last used latin keyboard layout
@@ -28,6 +28,13 @@ style:
   font_point: 16
   candidate_format: "%c %@"
   inline_preedit: true
+
+# 输入法切换
+app_options:
+  net.kovidgoyal.kitty:
+    ascii_mode: true
+  com.apple.Spotlight:
+    ascii_mode: true
 
 # 皮肤主题
 preset_color_schemes:
