@@ -1,0 +1,40 @@
+# Rime squirrel custom settings
+# encoding: utf-8
+
+patch:
+  # options: last | default | _custom_
+  # last: the last used latin keyboard layout
+  # default: US (ABC) keyboard layout
+  # _custom_: keyboard layout of your choice, e.g. 'com.apple.keylayout.USExtended' or simply 'USExtended'
+  keyboard_layout: default
+  # for veteran chord-typist
+  chord_duration: 0.1 # seconds
+  # options: always | never | appropriate
+  show_notifications_when: appropriate
+
+  style:
+    color_scheme: wechat_light
+    color_scheme_dark: wechat_dark
+    # 预设选项
+    candidate_list_layout: linear
+    border_height: 0
+    border_width: 8
+    corner_radius: 5
+    hilited_corner_radius: 5
+    label_font_point: 12
+    font_face: PingFangSC
+    font_point: 16
+    candidate_format: "%c %@"
+    inline_preedit: true
+
+  # 输入法切换
+  app_options:
+    net.kovidgoyal.kitty:
+      ascii_mode: true
+      vim_mode: true
+    com.apple.Spotlight:
+      ascii_mode: true
+
+  # 皮肤主题
+  preset_color_schemes:
+    __include: colors/colors.yaml:/preset_color_schemes
