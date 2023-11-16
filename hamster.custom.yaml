@@ -77,7 +77,7 @@ patch:
       - "-"
       - "*"
       - /
-    lockShiftState: true
+    lockShiftState: false
     enableEmbeddedInputMode: false
     widthOfOneHandedKeyboard: 80
     symbolsOfCursorBack:
@@ -108,7 +108,7 @@ patch:
     enableLoadingTextForSpaceButton: true
 
     # 空格按钮加载文本
-    loadingTextForSpaceButton: "cactusnix"
+    loadingTextForSpaceButton: ""
 
     # 空格按钮长显文本
     labelTextForSpaceButton: "cactusnix"
