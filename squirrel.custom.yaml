@@ -37,4 +37,4 @@ patch:
 
   # 皮肤主题
   preset_color_schemes:
-    __include: colors/colors.yaml:/preset_color_schemes
+    __include: colors.yaml:/preset_color_schemes
