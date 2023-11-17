@@ -6,6 +6,16 @@ patch:
   general:
     # 禁用 iCloud 同步
     enableAppleCloud: false
+  # 工具栏
+  toolbar:
+    # 工具栏总高度
+    heightOfToolbar: 60
+    # 拼写区高度(剩余高度由候选文字占用)
+    heightOfCodingArea: 15
+    # 拼写区字体大小
+    codingAreaFontSize: 14
+    # 候选文字字体大小
+    candidateWordFontSize: 20
   # 键盘相关配置
   keyboard:
     # 使用自定义键盘
@@ -114,7 +124,7 @@ patch:
             - action: none
         - keys:
             - action: shift
-              width: available
+              width: percentage(0.14)
             - action: none
             - action: character(z)
             - action: character(x)
@@ -125,7 +135,7 @@ patch:
             - action: character(m)
             - action: none
             - action: backspace
-              width: available
+              width: percentage(0.14)
         - keys:
             - action: keyboardType(numericNineGrid)
               width: percentage(0.2)
