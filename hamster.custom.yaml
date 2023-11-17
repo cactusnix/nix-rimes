@@ -136,6 +136,10 @@ patch:
             - action: none
             - action: backspace
               width: percentage(0.15)
+              swipe:
+              - direction: up
+                action: shortCommand(#重输)
+                display: false
         - keys:
             - action: keyboardType(numericNineGrid)
               width: percentage(0.2)
@@ -145,3 +149,7 @@ patch:
             - action: enter
               width: percentage(0.2)
               label: Enter
+              swipe:
+              - direction: up
+                action: shortCommand(#换行)
+                display: false
