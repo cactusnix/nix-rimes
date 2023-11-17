@@ -124,7 +124,7 @@ patch:
             - action: none
         - keys:
             - action: shift
-              width: percentage(0.16)
+              width: percentage(0.15)
             - action: none
             - action: character(z)
             - action: character(x)
@@ -135,7 +135,7 @@ patch:
             - action: character(m)
             - action: none
             - action: backspace
-              width: percentage(0.16)
+              width: percentage(0.15)
         - keys:
             - action: keyboardType(numericNineGrid)
               width: percentage(0.2)
