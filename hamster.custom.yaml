@@ -52,22 +52,6 @@ patch:
     enableHapticFeedback: true
     # 反馈强度
     hapticFeedbackIntensity: 2
-    # 启用分号按键
-    displaySemicolonButton: false
-    # 启用符号按键
-    displayClassifySymbolButton: false
-    # 启用空格左侧按键
-    displaySpaceLeftButton: false
-    spaceLeftButtonProcessByRIME: true
-    keyValueOfSpaceLeftButton: ","
-    # 启用空格右侧按键
-    displaySpaceRightButton: false
-    spaceRightButtonProcessByRIME: true
-    keyValueOfSpaceRightButton: "."
-    # 启用中英切换按键
-    displayChineseEnglishSwitchButton: false
-    # 按键位于空格左侧
-    chineseEnglishSwitchButtonIsOnLeftOfSpaceButton: false
     # 启用数字九宫格键盘
     enableNineGridOfNumericKeyboard: true
     # (数字九宫格键盘)符号是否直接上屏
@@ -103,23 +87,6 @@ patch:
       - "“”"
     enableSymbolKeyboard: true
     lockForSymbolKeyboard: false
-
-    # 是否启用空格加载文本
-    enableLoadingTextForSpaceButton: true
-
-    # 空格按钮加载文本
-    loadingTextForSpaceButton: ""
-
-    # 空格按钮长显文本
-    labelTextForSpaceButton: ""
-
-    # 空格按钮长显为当前输入方案
-    # 当开启此选项后，labelForSpaceButton 设置的值无效
-    showCurrentInputSchemaNameForSpaceButton: false
-
-    # 空格按钮加载文字显示当前输入方案
-    # 当开启此选项后， loadingTextForSpaceButton 设置的值无效
-    showCurrentInputSchemaNameOnLoadingTextForSpaceButton: false
 
     # 是否启用配色方案
     enableColorSchema: true
