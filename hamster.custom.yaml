@@ -187,15 +187,55 @@ patch:
       rows:
         - keys:
             - action: character(q)
+              swipe:
+              - direction: up
+                action: character(1)
+                display: false
             - action: character(w)
+              swipe:
+              - direction: up
+                action: character(2)
+                display: false
             - action: character(e)
+              swipe:
+              - direction: up
+                action: character(3)
+                display: false
             - action: character(r)
+              swipe:
+              - direction: up
+                action: character(4)
+                display: false
             - action: character(t)
+              swipe:
+              - direction: up
+                action: character(5)
+                display: false
             - action: character(y)
+              swipe:
+              - direction: up
+                action: character(6)
+                display: false
             - action: character(u)
+              swipe:
+              - direction: up
+                action: character(7)
+                display: false
             - action: character(i)
+              swipe:
+              - direction: up
+                action: character(8)
+                display: false
             - action: character(o)
+              swipe:
+              - direction: up
+                action: character(9)
+                display: false
             - action: character(p)
+              swipe:
+              - direction: up
+                action: character(0)
+                display: false
         - keys:
             - action: none
             - action: character(a)
@@ -210,6 +250,7 @@ patch:
             - action: none
         - keys:
             - action: shift
+              width: available
             - action: none
             - action: character(z)
             - action: character(x)
@@ -220,9 +261,15 @@ patch:
             - action: character(m)
             - action: none
             - action: backspace
+              width: available
         - keys:
             - action: keyboardType(numericNineGrid)
+              width: percentage(0.2)
             - action: character(,)
             - action: space
-            - action: character(.)
+              width: available
+            - action: shortCommand(#上个输入方案)
+              label: "⌘ "
             - action: enter
+              width: percentage(0.2)
+              label: "Enter"
