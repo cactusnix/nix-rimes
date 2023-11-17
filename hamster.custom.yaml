@@ -149,7 +149,3 @@ patch:
             - action: enter
               width: percentage(0.2)
               label: Enter
-              swipe:
-              - direction: up
-                action: shortCommand(#换行)
-                display: false
