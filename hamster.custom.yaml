@@ -232,11 +232,8 @@ patch:
         - keys:
             - action: keyboardType(numericNineGrid)
               width: percentage(0.2)
-            - action: keyboardType(emojis)
             - action: space
               width: available
-            - action: shortCommand(#RimeSwitcher)
-              label: "⌘ "
             - action: enter
               width: percentage(0.2)
               label: "Enter"
