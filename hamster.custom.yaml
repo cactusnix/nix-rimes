@@ -111,7 +111,7 @@ patch:
     loadingTextForSpaceButton: ""
 
     # 空格按钮长显文本
-    labelTextForSpaceButton: "cactusnix"
+    labelTextForSpaceButton: ""
 
     # 空格按钮长显为当前输入方案
     # 当开启此选项后，labelForSpaceButton 设置的值无效
@@ -265,10 +265,10 @@ patch:
         - keys:
             - action: keyboardType(numericNineGrid)
               width: percentage(0.2)
-            - action: character(,)
+            - action: keyboardType(emojis)
             - action: space
               width: available
-            - action: shortCommand(#上个输入方案)
+            - action: shortCommand(#RimeSwitcher)
               label: "⌘ "
             - action: enter
               width: percentage(0.2)
