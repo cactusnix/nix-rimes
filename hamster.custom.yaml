@@ -43,9 +43,7 @@ patch:
         hilited_comment_text_color: 0xFFFFFF
       - schemaName: wechat_dark
         name: 微信键盘深色
-        back_color: 0x2e2925
         text_color: 0x424242
-        label_color: 0x999999
         candidate_text_color: 0xe9e9ea
         comment_text_color: 0xe9e9ea
         hilited_candidate_back_color: 0x75B100
