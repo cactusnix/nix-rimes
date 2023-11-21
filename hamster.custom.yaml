@@ -29,24 +29,24 @@ patch:
     # 是否启用配色方案
     enableColorSchema: true
     # 浅色模式下配色
-    useColorSchemaForLight: wechat_light
+    useColorSchemaForLight: cactusnix_light
     # 暗色模式下配色
-    useColorSchemaForDark: wechat_dark
+    useColorSchemaForDark: cactusnix_dark
     # 配色方案
     colorSchemas:
-      - schemaName: wechat_light
-        name: 微信键盘浅色
-        text_color: 0x75B100
+      - schemaName: cactusnix_light
+        name: light
+        text_color: 0x009ad6
         comment_text_color: 0x424242
-        hilited_candidate_back_color: 0x75B100
+        hilited_candidate_back_color: 0x009ad6
         hilited_candidate_text_color: 0xFFFFFF
         hilited_comment_text_color: 0xFFFFFF
-      - schemaName: wechat_dark
-        name: 微信键盘深色
-        text_color: 0x75B100
+      - schemaName: cactusnix_dark
+        name: dark
+        text_color: 0x009ad6
         candidate_text_color: 0xe9e9ea
         comment_text_color: 0xe9e9ea
-        hilited_candidate_back_color: 0x75B100
+        hilited_candidate_back_color: 0x009ad6
         hilited_candidate_text_color: 0xFFFFFF
         hilited_comment_text_color: 0xFFFFFF
   # RIME 引擎相关配置
