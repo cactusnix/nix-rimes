@@ -13,8 +13,8 @@ patch:
   show_notifications_when: appropriate
 
   style:
-    color_scheme: wechat_light
-    color_scheme_dark: wechat_dark
+    color_scheme: cactusnix_light
+    color_scheme_dark: cactusnix_dark
     # 预设选项
     candidate_list_layout: linear
     border_height: 0
@@ -37,20 +37,20 @@ patch:
 
   # 皮肤主题
   preset_color_schemes:
-    wechat_light:
-      name: 微信键盘浅色
-      text_color: 0x424242
+    cactusnix_light:
+      name: light
+      text_color: 0xD69A00
       comment_text_color: 0x424242
-      hilited_candidate_back_color: 0x75B100
+      hilited_candidate_back_color: 0xD69A00
       hilited_candidate_text_color: 0xFFFFFF
       hilited_comment_text_color: 0xFFFFFF
-    wechat_dark:
-      name: 微信键盘深色
+    cactusnix_dark:
+      name: dark
       back_color: 0x2e2925
-      text_color: 0x424242
+      text_color: 0xD69A00
       label_color: 0x999999
       candidate_text_color: 0xe9e9ea
       comment_text_color: 0xe9e9ea
-      hilited_candidate_back_color: 0x75B100
+      hilited_candidate_back_color: 0xD69A00
       hilited_candidate_text_color: 0xFFFFFF
       hilited_comment_text_color: 0xFFFFFF
