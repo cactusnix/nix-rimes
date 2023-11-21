@@ -16,6 +16,8 @@ patch:
     codingAreaFontSize: 14
     # 候选文字字体大小
     candidateWordFontSize: 20
+    # 是否显示候选文字 Comment 信息
+    displayCommentOfCandidateWord: true
   # 键盘相关配置
   keyboard:
     # 使用自定义键盘
