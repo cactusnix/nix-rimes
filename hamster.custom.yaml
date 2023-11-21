@@ -36,14 +36,14 @@ patch:
     colorSchemas:
       - schemaName: wechat_light
         name: 微信键盘浅色
-        text_color: 0x424242
+        text_color: 0x75B100
         comment_text_color: 0x424242
         hilited_candidate_back_color: 0x75B100
         hilited_candidate_text_color: 0xFFFFFF
         hilited_comment_text_color: 0xFFFFFF
       - schemaName: wechat_dark
         name: 微信键盘深色
-        text_color: 0x424242
+        text_color: 0x75B100
         candidate_text_color: 0xe9e9ea
         comment_text_color: 0xe9e9ea
         hilited_candidate_back_color: 0x75B100
