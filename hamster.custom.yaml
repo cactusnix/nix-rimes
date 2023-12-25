@@ -23,7 +23,7 @@ patch:
   # 键盘相关配置
   keyboard:
     # 使用自定义键盘
-    useKeyboardType: { custom: cactusnix }
+    useKeyboardType: cactusnix
     # 不锁定大写状态
     lockShiftState: false
     # 启用触控反馈
@@ -126,7 +126,7 @@ patch:
             - action: none
         - keys:
             - action: shift
-              width: { percentage:0.15 }
+              width: { percentage: 0.15 }
             - action: none
             - action: { character: { char: z } }
             - action: { character: { char: x } }
