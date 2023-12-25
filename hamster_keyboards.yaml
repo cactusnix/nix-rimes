@@ -1,5 +1,6 @@
 keyboards:
   - name: cactusnix
+    isPrimary: true
     rows:
       - keys:
           - action: { character: { char: q } }
