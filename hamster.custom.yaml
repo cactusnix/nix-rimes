@@ -2,43 +2,10 @@
 # encoding: utf-8
 
 patch:
-  # 通用配置
-  general:
-    # 禁用 iCloud 同步
-    enableAppleCloud: false
-  # 工具栏
-  toolbar:
-    # 是否开启工具栏
-    enableToolbar: true
-    # 工具栏总高度
-    heightOfToolbar: 60
-    # 拼写区高度(剩余高度由候选文字占用)
-    heightOfCodingArea: 15
-    # 拼写区字体大小
-    codingAreaFontSize: 14
-    # 候选文字字体大小
-    candidateWordFontSize: 20
-    # 是否显示候选文字 Comment 信息
-    displayCommentOfCandidateWord: true
   # 键盘相关配置
   keyboard:
     # 使用自定义键盘
     useKeyboardType: cactusnix
-    # 不锁定大写状态
-    lockShiftState: false
-    # 启用触控反馈
-    enableHapticFeedback: true
-    # 反馈强度
-    hapticFeedbackIntensity: 2
-    # 是否启用配色方案
-    enableColorSchema: true
-    # 浅色模式下配色
-    useColorSchemaForLight: cactusnix_light
-    # 暗色模式下配色
-    useColorSchemaForDark: cactusnix_dark
-    # 配色方案
-    colorSchemas:
-      __include: hamster_color_schemas:/colorSchemas
   # RIME 引擎相关配置
   rime:
     # RIME 重新部署时，是否覆盖词库文件
