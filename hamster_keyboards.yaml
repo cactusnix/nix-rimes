@@ -50,7 +50,7 @@ keyboards:
           - action: { character: { char: p } }
             swipe:
               - direction: up
-                action: { character: { char: 0 } }
+                action: { character: { char: "0" } }
                 display: false
       - keys:
           - action: none
