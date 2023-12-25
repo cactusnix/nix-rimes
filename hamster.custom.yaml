@@ -8,6 +8,8 @@ patch:
     enableAppleCloud: false
   # 工具栏
   toolbar:
+    # 是否开启工具栏
+    enableToolbar: true
     # 工具栏总高度
     heightOfToolbar: 60
     # 拼写区高度(剩余高度由候选文字占用)
@@ -21,7 +23,7 @@ patch:
   # 键盘相关配置
   keyboard:
     # 使用自定义键盘
-    useKeyboardType: custom(cactusnix)
+    useKeyboardType: { custom: cactusnix }
     # 不锁定大写状态
     lockShiftState: false
     # 启用触控反馈
@@ -60,92 +62,92 @@ patch:
     - name: cactusnix
       rows:
         - keys:
-            - action: character(q)
+            - action: { character: { char: q } }
               swipe:
-              - direction: up
-                action: character(1)
-                display: false
-            - action: character(w)
+                - direction: up
+                  action: { character: { char: 1 } }
+                  display: false
+            - action: { character: { char: w } }
               swipe:
-              - direction: up
-                action: character(2)
-                display: false
-            - action: character(e)
+                - direction: up
+                  action: { character: { char: 2 } }
+                  display: false
+            - action: { character: { char: e } }
               swipe:
-              - direction: up
-                action: character(3)
-                display: false
-            - action: character(r)
+                - direction: up
+                  action: { character: { char: 3 } }
+                  display: false
+            - action: { character: { char: r } }
               swipe:
-              - direction: up
-                action: character(4)
-                display: false
-            - action: character(t)
+                - direction: up
+                  action: { character: { char: 4 } }
+                  display: false
+            - action: { character: { char: t } }
               swipe:
-              - direction: up
-                action: character(5)
-                display: false
-            - action: character(y)
+                - direction: up
+                  action: { character: { char: 5 } }
+                  display: false
+            - action: { character: { char: y } }
               swipe:
-              - direction: up
-                action: character(6)
-                display: false
-            - action: character(u)
+                - direction: up
+                  action: { character: { char: 6 } }
+                  display: false
+            - action: { character: { char: u } }
               swipe:
-              - direction: up
-                action: character(7)
-                display: false
-            - action: character(i)
+                - direction: up
+                  action: { character: { char: 7 } }
+                  display: false
+            - action: { character: { char: i } }
               swipe:
-              - direction: up
-                action: character(8)
-                display: false
-            - action: character(o)
+                - direction: up
+                  action: { character: { char: 8 } }
+                  display: false
+            - action: { character: { char: o } }
               swipe:
-              - direction: up
-                action: character(9)
-                display: false
-            - action: character(p)
+                - direction: up
+                  action: { character: { char: 9 } }
+                  display: false
+            - action: { character: { char: p } }
               swipe:
-              - direction: up
-                action: character(0)
-                display: false
+                - direction: up
+                  action: { character: { char: 0 } }
+                  display: false
         - keys:
             - action: none
-            - action: character(a)
-            - action: character(s)
-            - action: character(d)
-            - action: character(f)
-            - action: character(g)
-            - action: character(h)
-            - action: character(j)
-            - action: character(k)
-            - action: character(l)
+            - action: { character: { char: a } }
+            - action: { character: { char: s } }
+            - action: { character: { char: d } }
+            - action: { character: { char: f } }
+            - action: { character: { char: g } }
+            - action: { character: { char: h } }
+            - action: { character: { char: j } }
+            - action: { character: { char: k } }
+            - action: { character: { char: l } }
             - action: none
         - keys:
             - action: shift
-              width: percentage(0.15)
+              width: { percentage:0.15 }
             - action: none
-            - action: character(z)
-            - action: character(x)
-            - action: character(c)
-            - action: character(v)
-            - action: character(b)
-            - action: character(n)
-            - action: character(m)
+            - action: { character: { char: z } }
+            - action: { character: { char: x } }
+            - action: { character: { char: c } }
+            - action: { character: { char: v } }
+            - action: { character: { char: b } }
+            - action: { character: { char: n } }
+            - action: { character: { char: m } }
             - action: none
             - action: backspace
-              width: percentage(0.15)
+              width: { percentage: 0.15 }
               swipe:
-              - direction: up
-                action: shortCommand(#重输)
-                display: false
+                - direction: up
+                  action: { shortCommand: "#重输" }
+                  display: false
         - keys:
-            - action: keyboardType(numericNineGrid)
-              width: percentage(0.2)
+            - action: { keyboardType: numericNineGrid }
+              width: { percentage: 0.2 }
             - action: space
               width: available
               label: Space
             - action: enter
-              width: percentage(0.2)
+              width: { percentage: 0.2 }
               label: Enter
