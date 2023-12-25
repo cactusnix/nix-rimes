@@ -1,0 +1,16 @@
+colorSchemas:
+  - schemaName: cactusnix_light
+    name: light
+    text_color: 0xD69A00
+    comment_text_color: 0x424242
+    hilited_candidate_back_color: 0xD69A00
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0xFFFFFF
+  - schemaName: cactusnix_dark
+    name: dark
+    text_color: 0xD69A00
+    candidate_text_color: 0xe9e9ea
+    comment_text_color: 0xe9e9ea
+    hilited_candidate_back_color: 0xD69A00
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0xFFFFFF

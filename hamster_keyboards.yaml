@@ -1,0 +1,93 @@
+keyboards:
+  - name: cactusnix
+    rows:
+      - keys:
+          - action: { character: { char: q } }
+            swipe:
+              - direction: up
+                action: { character: { char: 1 } }
+                display: false
+          - action: { character: { char: w } }
+            swipe:
+              - direction: up
+                action: { character: { char: 2 } }
+                display: false
+          - action: { character: { char: e } }
+            swipe:
+              - direction: up
+                action: { character: { char: 3 } }
+                display: false
+          - action: { character: { char: r } }
+            swipe:
+              - direction: up
+                action: { character: { char: 4 } }
+                display: false
+          - action: { character: { char: t } }
+            swipe:
+              - direction: up
+                action: { character: { char: 5 } }
+                display: false
+          - action: { character: { char: y } }
+            swipe:
+              - direction: up
+                action: { character: { char: 6 } }
+                display: false
+          - action: { character: { char: u } }
+            swipe:
+              - direction: up
+                action: { character: { char: 7 } }
+                display: false
+          - action: { character: { char: i } }
+            swipe:
+              - direction: up
+                action: { character: { char: 8 } }
+                display: false
+          - action: { character: { char: o } }
+            swipe:
+              - direction: up
+                action: { character: { char: 9 } }
+                display: false
+          - action: { character: { char: p } }
+            swipe:
+              - direction: up
+                action: { character: { char: 0 } }
+                display: false
+      - keys:
+          - action: none
+          - action: { character: { char: a } }
+          - action: { character: { char: s } }
+          - action: { character: { char: d } }
+          - action: { character: { char: f } }
+          - action: { character: { char: g } }
+          - action: { character: { char: h } }
+          - action: { character: { char: j } }
+          - action: { character: { char: k } }
+          - action: { character: { char: l } }
+          - action: none
+      - keys:
+          - action: shift
+            width: { percentage: 0.15 }
+          - action: none
+          - action: { character: { char: z } }
+          - action: { character: { char: x } }
+          - action: { character: { char: c } }
+          - action: { character: { char: v } }
+          - action: { character: { char: b } }
+          - action: { character: { char: n } }
+          - action: { character: { char: m } }
+          - action: none
+          - action: backspace
+            width: { percentage: 0.15 }
+            swipe:
+              - direction: up
+                action: { shortCommand: "#重输" }
+                display: false
+      - keys:
+          - action: { keyboardType: numericNineGrid }
+            width: { percentage: 0.2 }
+          - action: space
+            width: available
+            label: Space
+          - action: enter
+            width: { percentage: 0.2 }
+            label: Enter
